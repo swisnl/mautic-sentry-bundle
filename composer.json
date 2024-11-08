@@ -1,18 +1,22 @@
 {
-    "name": ":vendor/:package_name",
-    "type": "library",
-    "description": ":package_description",
+    "name": "swisnl/mautic-sentry-bundle",
+    "description": "Sentry integration for Mautic",
+    "type": "mautic-plugin",
     "keywords": [
-        ":vendor",
-        ":package_name"
+        "mautic",
+        "plugin",
+        "integration",
+        "sentry",
+        "swisnl",
+        "mautic-sentry-bundle"
     ],
-    "homepage": "https://github.com/:vendor/:package_name",
+    "homepage": "https://github.com/swisnl/mautic-sentry-bundle",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": ":author_website",
+            "name": "Tim Biesenbeek",
+            "email": "tbiesenbeek@swis.nl",
+            "homepage": "https://www.swis.nl",
             "role": "Developer"
         }
     ],
@@ -23,18 +27,7 @@
         "friendsofphp/php-cs-fixer": "^3.8",
         "phpunit/phpunit" : "^9.5"
     },
-    "autoload": {
-        "psr-4": {
-            ":vendor\\:package_name\\": "src"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            ":vendor\\:package_name\\Tests\\": "tests"
-        }
-    },
     "scripts": {
-        "test": "phpunit",
         "check-style": "php-cs-fixer fix --dry-run -v",
         "fix-style": "php-cs-fixer fix"
     },

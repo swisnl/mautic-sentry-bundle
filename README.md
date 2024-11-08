@@ -1,4 +1,4 @@
-# :package_name
+# mautic-sentry-bundle
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
@@ -9,50 +9,17 @@
 [![Total Downloads][ico-downloads]][link-downloads]
 [![Made by SWIS][ico-swis]][link-swis]
 
-**Note:** Replace ```:author_name``` ```:author_username``` ```:author_website``` ```:author_email``` ```:vendor``` ```:package_name``` ```:package_description``` with their correct values in [README.md](README.md), [CHANGELOG.md](CHANGELOG.md), [CONTRIBUTING.md](CONTRIBUTING.md), [LICENSE.md](LICENSE.md) and [composer.json](composer.json) files, then delete this line. You can run `$ php prefill.php` in the command line to make all replacements at once. Delete the file prefill.php as well.
-
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what
-PSRs you support to avoid any confusion with users and contributors.
-
-## Structure
-
-If any of the following are applicable to your project, then the directory structure should follow industry best practices by being named the following.
-
-```
-bin/        
-build/
-docs/
-config/
-src/
-tests/
-vendor/
-```
-
-
 ## Install
 
 Via Composer
 
 ``` bash
-$ composer require :vendor/:package_name
-```
-
-## Usage
-
-``` php
-$skeleton = new League\Skeleton();
-echo $skeleton->echoPhrase('Hello, League!');
+$ composer require swisnl/mautic-sentry-bundle
 ```
 
 ## Change log
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
-
-## Testing
-
-``` bash
-$ composer test
-```
 
 ## Contributing
 
@@ -64,7 +31,7 @@ If you discover any security related issues, please email security@swis.nl inste
 
 ## Credits
 
-- [:author_name][link-author]
+- [Tim Biesenbeek][link-author]
 - [All Contributors][link-contributors]
 
 ## License
@@ -77,21 +44,21 @@ This package is [Treeware](https://treeware.earth). If you use it in production,
 
 [SWIS][link-swis] is a web agency from Leiden, the Netherlands. We love working with open source software. 
 
-[ico-version]: https://img.shields.io/packagist/v/:vendor/:package_name.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/swisnl/mautic-sentry-bundle.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 [ico-treeware]: https://img.shields.io/badge/Treeware-%F0%9F%8C%B3-lightgreen.svg?style=flat-square
-[ico-github-actions]: https://img.shields.io/github/actions/workflow/status/:vendor/:package_name/tests.yml?label=tests&branch=master&style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/:vendor/:package_name.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/:vendor/:package_name.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/:vendor/:package_name.svg?style=flat-square
+[ico-github-actions]: https://img.shields.io/github/actions/workflow/status/swisnl/mautic-sentry-bundle/tests.yml?label=tests&branch=master&style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/swisnl/mautic-sentry-bundle.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/swisnl/mautic-sentry-bundle.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/swisnl/mautic-sentry-bundle.svg?style=flat-square
 [ico-swis]: https://img.shields.io/badge/%F0%9F%9A%80-made%20by%20SWIS-%230737A9.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/:vendor/:package_name
-[link-github-actions]: https://github.com/:vendor/:package_name/actions/workflows/tests.yml
-[link-scrutinizer]: https://scrutinizer-ci.com/g/:vendor/:package_name/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/:vendor/:package_name
-[link-downloads]: https://packagist.org/packages/:vendor/:package_name
-[link-treeware]: https://plant.treeware.earth/:vendor/:package_name
-[link-author]: https://github.com/:author_username
+[link-packagist]: https://packagist.org/packages/swisnl/mautic-sentry-bundle
+[link-github-actions]: https://github.com/swisnl/mautic-sentry-bundle/actions/workflows/tests.yml
+[link-scrutinizer]: https://scrutinizer-ci.com/g/swisnl/mautic-sentry-bundle/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/swisnl/mautic-sentry-bundle
+[link-downloads]: https://packagist.org/packages/swisnl/mautic-sentry-bundle
+[link-treeware]: https://plant.treeware.earth/swisnl/mautic-sentry-bundle
+[link-author]: https://github.com/swisnl
 [link-contributors]: ../../contributors
 [link-swis]: https://www.swis.nl
